@@ -11,8 +11,6 @@ $grey: rgba(105, 121, 147, 0.8);
 $architect: 'Architects Daughter', cursive;
 $merri: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 
-
-
 // body
 body {
   font-family: $merri;
@@ -36,13 +34,12 @@ nav.navbar {
   div.collapse.navbar-collapse {
     a.navbar-brand {
       color: $orangey;
-      font-family: $architect;
       font-weight: 700;
       font-size: 2em;
     }
     li.nav-item {
       a.nav-link {
-        color: $orangey;
+        color: $grey;
         line-height: 2.5em;
       }
     }
