@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 
 // colors
 $orangey: rgba(240, 95, 64, 0.8);
@@ -6,9 +7,15 @@ $white: white;
 $teal: rgba(0, 198, 198, 0.8);
 $grey: rgba(105, 121, 147, 0.8);
 
+// fonts
+$architect: 'Architects Daughter', cursive;
+$merri: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+
+
+
 // body
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: $merri;
   background-image: url('plant.jpg');
   -webkit-background-size: cover;
   background-position: center;
@@ -29,10 +36,14 @@ nav.navbar {
   div.collapse.navbar-collapse {
     a.navbar-brand {
       color: $orangey;
+      font-family: $architect;
+      font-weight: 700;
+      font-size: 2em;
     }
     li.nav-item {
       a.nav-link {
         color: $orangey;
+        line-height: 2.5em;
       }
     }
   }
