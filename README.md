@@ -1,24 +1,42 @@
-# README
+# _Sitecast Challenge_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### By _**Caitlin Ashtari**, 3/12/2017_
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+This is an interview challenge for Sitecast's Web Developer Internship position. The assignment was to design a simple, responsive HTML document using Bootstrap.
 
-* System dependencies
+## Link to Live Site
 
-* Configuration
+* https://sitecast-challenge.herokuapp.com/
 
-* Database creation
+## Prerequisites
 
-* Database initialization
+You will need the following things properly installed on your computer.
 
-* How to run the test suite
+* Ruby
+* Rails
+* Postgres
 
-* Services (job queues, cache servers, search engines, etc.)
+## Installation
 
-* Deployment instructions
+* `git clone https://github.com/caitlinashtari/sitecast-challenge`
+* `cd sitecast-challenge`
+* `bundle`
+* `rails db:create`
+* `rails db:migrate db:test:prepare`
 
-* ...
+## Running
+
+* `rails serve`
+* Visit your app at [http://localhost:3000](http://localhost:3000).
+
+## Technologies Used
+
+_Rails, Ruby, Bootstrap4_
+
+### License
+
+*MIT License*
+
+Copyright (c) 2017 **_Caitlin Ashtari_**
