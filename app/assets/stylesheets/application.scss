@@ -11,8 +11,9 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   background-image: url('plant.jpg');
   -webkit-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   min-height:100%;
-  background-position: center color;
   color: $teal;
 }
 
@@ -82,8 +83,9 @@ header {
   .header-content {
   position: relative;
   text-align: center;
-  padding: 70px 15px 100px;
+  padding: 100px 15px 100px;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
   }
   h1 {
   font-weight: 700;
