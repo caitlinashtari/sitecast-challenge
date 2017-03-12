@@ -9,6 +9,16 @@ body {
 
 nav.navbar {
   background: transparent;
+  div.collapse.navbar-collapse {
+    a.navbar-brand {
+      color: white;
+    }
+    li.nav-item {
+      a.nav-link {
+        color: white;
+      }
+    }
+  }
 }
 
 header {
