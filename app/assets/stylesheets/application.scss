@@ -6,6 +6,7 @@ $white: white;
 $teal: rgba(0, 198, 198, 0.8);
 $grey: rgba(105, 121, 147, 0.8);
 
+// body
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   background-image: url('plant.jpg');
@@ -21,6 +22,7 @@ hr {
   max-width: 50px;
 }
 
+// nav
 nav.navbar {
   background: transparent;
   div.collapse.navbar-collapse {
@@ -35,13 +37,52 @@ nav.navbar {
   }
 }
 
+// blog sidebar
+.navbar-side {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  right: 0;
+  padding: 0;
+  list-style: none;
+  border-left: 2px solid #ccc;
+  background-color: #f7f7f9;
+  overflow-y: scroll;
+  z-index: 1000;
+  @include media-breakpoint-up(xs) { width: 0%; } // Small
+  @include media-breakpoint-up(sm) { width: 20%; } // Medium
+  @include media-breakpoint-up(md) { width: 20%; } // Large
+}
+
+.navbar-side-item {
+ padding: 1.5rem;
+ margin: 0;
+ border-bottom: 2px solid #ccc;
+ height: auto;
+ list-style: none;
+}
+
+.side-link {
+  margin: 1rem;
+  padding-right: 20px;
+  text-align: center;
+  list-style: none;
+}
+
+.col-sm-10#sidebar-padding {
+  padding-right: 300px;
+}
+
+// section content
 header {
   text-align: center;
   width: 100%;
   .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding: 70px 15px 100px;
   width: 100%;
   }
   h1 {
@@ -66,10 +107,12 @@ header {
   margin-top: 0;
 }
 
+// button
 .btn {
   border-color: $orangey;
 }
 
+// footer
 footer.footer {
   text-align: center;
   position: absolute;
