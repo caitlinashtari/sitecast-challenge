@@ -13,6 +13,7 @@ nav.navbar {
 
 header {
   text-align: center;
+  width: 100%;
   .header-content {
   position: relative;
   text-align: center;
@@ -37,5 +38,17 @@ header {
   }
   .btn {
     background-color: teal;
+    color: white;
+    &:hover {
+      background-color: rgb(50, 219, 219);
+    }
   }
+}
+
+.section-heading {
+  margin-top: 0;
+}
+
+.initially-hidden {
+  display: none;
 }
